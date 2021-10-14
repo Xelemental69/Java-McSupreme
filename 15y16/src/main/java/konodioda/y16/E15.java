@@ -16,9 +16,10 @@ public class E15 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        boolean adivina = ((97 == 'a') && true);
+        boolean adivina = ((97 == 'a') && true); //Comprueba el valor de a en UNICODE
 		System.out.println(adivina);
-        int a = 'a';
+	    
+        int a = 'a'; //Muestra el valor de a en UNICODE (el espacio que ocupa)
 		System.out.println(a);
 
 	//int pi = 3.14; No funciona porque int no acepta decimales
@@ -27,7 +28,8 @@ public class E15 {
 	double pii = 3.14; //Hay que cambiar la coma por punto
                 System.out.println(pii);
 
-	boolean adivinam = (1==4);
+	boolean adivinam = (1==4);//Comprueba si los dos nºs son iguales y 
+        //devuelve false
                 System.out.println(adivina);
 
 
