@@ -20,13 +20,13 @@ public class B {
         // TODO code application logic here
         //Declaramos e inicializamos las variables que harán falta, pidiendo por
         //pantalla el caracter
-        Scanner emosSidoEngañaos = new Scanner(System.in);
+        Scanner hemoSidoEngañaos = new Scanner(System.in);
         
         System.out.println("Introduce un solo caracter o cifra: ");
         //Para coger un char por teclado, usamos el .next para coger una palabra
         //y a continuación el .charAt(0)para coger el primer acarter introducido
         //(en posición 0)
-        char x = emosSidoEngañaos.next().charAt(0);
+        char x = hemoSidoEngañaos.next().charAt(0);
         
         int y = x;
         
