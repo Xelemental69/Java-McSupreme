@@ -29,9 +29,10 @@ public class B {
         char x = hemoSidoEngañaos.next().charAt(0);
         
         int y = x;
-        
+                        
         System.out.println(x+ " es en número (UNICODE): " + y);
-        
+        //Según el rango en el Unicode, se comprobará con if/else 
+        //si se halla entre el rango de dígitos, minúsculas o mayúsculas
         if(y>=48 && y<=57){
             System.out.println("El caracter introducido es un número");
         }else if (y>=65 && y<=90){
@@ -39,6 +40,7 @@ public class B {
         }else if (y>=97 && y<=122){
             System.out.println("El caracter introducido es una letra minúscula");
         }else{
+            //Si no se halla en ninguno de los rangos deseados, salta error
             System.out.println("ERROR. El caracter no válido");
         }
                 
