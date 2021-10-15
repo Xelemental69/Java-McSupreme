@@ -17,10 +17,10 @@ public class A {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner entry = new Scanner(System.in);
+        Scanner emosSidoEngañaos = new Scanner(System.in);
         //Declaramos e inicializamos x con lo que nos pide en pantalla
         System.out.println("Introduce un número");
-        int x = entry.nextInt();
+        int x = emosSidoEngañaos.nextInt();
         
         if(x == 0) System.out.println("El número introducido es 0");
         else if(x<0) System.out.println("El número es negativo");
