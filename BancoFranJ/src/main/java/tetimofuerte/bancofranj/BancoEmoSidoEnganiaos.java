@@ -46,13 +46,13 @@ public class BancoEmoSidoEnganiaos {
                 //Continuamos por el if si la duración no es excesiva
                 //No obstante, si dura más de 30 años o si sumado a la edad
                 //superan los 75, saltamos al else nº3
-                if ((anosHipoteca < 30 && anosHipoteca < 5)
-                        && (anosHipoteca + edad) > 75) {
+                if ((anosHipoteca < 30 && anosHipoteca > 5)
+                        && (anosHipoteca + edad) < 75) {
                     //Una vez todos los requisitos son cumplidos, se considera
                     //al cliente apto para el club EmoSido Engañaos de
                     //TeTimo(Fuerte)^TM
                     System.out.println("Estupendo, es usted apto para hacer el "
-                            + "engaño, digo, préstamo de " + cantEulos);
+                            + "engaño, digo, préstamo de " + cantEulos + "euros.");
 
                 } else {//Else nº3. Damos error por ser demasiada duración.
                     //Y tras ello, termina el programa
@@ -60,7 +60,8 @@ public class BancoEmoSidoEnganiaos {
                             + "préstamo por tanto tiempo.");
                 }
 
-            } else {//Else nº2. Damos error por el exceso de cantidad y terminamos
+            } else {//Else nº2. Damos error por el exceso de cantidad y 
+                //terminamos
                 System.out.println("Lo sentimos, pero no podemos darle "
                         + "tanta cantidad.");
             }
