@@ -11,7 +11,7 @@ import java.util.*;
  *
  * @author pikac
  */
-public class E5_2 {
+public class E7 {
     
         public static void main(String[] args) {
         // TODO code application logic here
