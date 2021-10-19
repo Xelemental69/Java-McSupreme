@@ -16,7 +16,8 @@ public class E15 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        boolean adivina = ((97 == 'a') && true); //Comprueba el valor de a en UNICODE
+        boolean adivina = ((97 == 'a') && true); //Comprueba el valor de a en 
+        //UNICODE
 		System.out.println(adivina);
 	    
         int a = 'a'; //Muestra el valor de a en UNICODE (el espacio que ocupa)
