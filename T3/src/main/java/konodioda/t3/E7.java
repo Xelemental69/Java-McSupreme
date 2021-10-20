@@ -37,7 +37,7 @@ public class E7 {
                 
             System.out.println("Ha seleccionado calcular el área de un cuadrado...");
             System.out.println("Introduce el lado: ");
-            int l= entrada.nextInt();
+            int l = entrada.nextInt();
             area = l*l;
             System.out.println("El área del cuadrado es " + area+ "u^2");
                 
