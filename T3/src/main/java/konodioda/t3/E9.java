@@ -26,16 +26,24 @@ public class E9 {
             case 3:
                 variable2 = 30;
                 //No obstante, la carencia del break mueve hacia otro case...
-                System.out.println("variable2 = " + variable2);
+                if (variable2 < 20) {
+                    System.out.println("variable2 = " + variable2);
+                } else {
+                    System.out.println("variable2 pasa a ser  " + variable2);
+                }
             case 4:
                 //...pasando por aquí...
                 variable2 = 10;
-                System.out.println("variable2 = " + variable2);
+                if (variable2 < 20) {
+                    System.out.println("variable2 = " + variable2);
+                }
             default:
                 //y terminando en default, siendo al final 100 el valor de
                 //variable2
                 variable2 = 100;
-                System.out.println("variable2 = " + variable2);
+                if (variable2 > 20) {
+                    System.out.println("variable2 = " + variable2);
+                }
                 break;
 
         }
