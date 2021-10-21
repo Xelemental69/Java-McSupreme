@@ -4,10 +4,10 @@
  */
 package konodioda.t3;
 import java.util.*;
-/**
- *
- * @author Xele
- */
+/********************/
+ /*                 */
+ /* @author Xele    */
+ /*******************/
 public class BE2 {
 
     /**
