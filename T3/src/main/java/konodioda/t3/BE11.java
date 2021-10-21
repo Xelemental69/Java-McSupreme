@@ -19,7 +19,7 @@ public class BE11 {
         //int para recorrer el do-while
         String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         int i = 0;
-        //Realizamos un for para pasar por cada letra:
+        //Realizamos un do-while para pasar por cada letra:
         do{
             System.out.println(abc.charAt(i));
             i++;

@@ -20,7 +20,8 @@ public class BE12 {
         
         //Realizamos un for para pasar por cada letra:
         for(int i = 0;i<25;i++){
-            System.out.println((int)abc.charAt(i));
+            System.out.println((int)abc.charAt(i));//Pasamos la letra a int y sacamos
+            //el valor en UNICODE             
         }
         
     }
