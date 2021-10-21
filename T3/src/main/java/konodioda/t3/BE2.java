@@ -6,7 +6,7 @@ package konodioda.t3;
 import java.util.*;
 /**
  *
- * @author fco-j
+ * @author Xele
  */
 public class BE2 {
 
