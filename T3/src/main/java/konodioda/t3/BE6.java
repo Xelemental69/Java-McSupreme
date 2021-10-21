@@ -22,6 +22,8 @@ public class BE6 {
         gg=teclado.nextInt();
         
         for(int x = 1; x<=gg; x++) {
+            //En un for, se declara y/o inicializa una variable, se le da una
+            //condición para repetirse y un operador que modifique la variable.
             System.out.print(x);
             System.out.print(" - ");
             
